@@ -188,7 +188,7 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 			)
 		),
 		"header_vars" => "#FFFFFF",
-		"header_values" => "#FFD700",
+		"header_values" => "#00ffff",
 		"header_on" => "#00FF00",
 		"header_off" => "#ff0000",
 		"header_none" => "#00FF00",
@@ -223,7 +223,7 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 		"header_show_all" => "#00FF00",
 		"disable_functions" => "#ff0000",
 		"footer_text" => "#27979B",
-		"menu_options" => "#FFD700",
+		"menu_options" => "#00ffff",
 		"menu_options:hover" => array(
 			"key_color" => "#646464",
 			"multi_selector" => array(
@@ -285,9 +285,9 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 				".main .main_name" => "color: {color};font-weight: unset;",
 			)
 		),
-		"main_size" => "#FFD700",
-		"main_modify" => "#FFD700",
-		"main_owner_group" => "#FFD700",
+		"main_size" => "#00ffff",
+		"main_modify" => "#00ffff",
+		"main_owner_group" => "#00ffff",
 		"main_green_perm" => "#25ff00",
 		"main_red_perm" => "#FF0000",
 		"main_white_perm" => "#FFFFFF",
