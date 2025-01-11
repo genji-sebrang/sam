@@ -2,7 +2,7 @@
 
 $GLOBALS['Leviathan'] = array(
     'username' => 'admin-genji',
-    'password' => '7d793037a0760186574b0282f2f435e7',
+    'password' => 'ec0dd7e0aaec6abb943733a29cb00040',
     'safe_mode' => '0',
     'login_page' => 'gui',
     'show_icons' => '1',
